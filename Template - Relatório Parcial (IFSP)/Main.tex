@@ -1,0 +1,170 @@
+%==============================================================
+%------------------JONATHAN TOBIAS DA SILVA--------------------
+%---------------ENGENHARIA ELÉTRICA - 1ª TURMA-----------------
+%-----------INSTITUTO FEDERAL - CAMPUS SERTÃOZINHO-------------
+%--------------Main.tex, v1.0.0, JonathanTSilva----------------
+%------------------github.com/JonathanTSilva-------------------
+%==============================================================
+
+\documentclass[a4paper, 12pt]{article}
+
+%--------------------------PACOTES----------------------------|
+\input{Packages}
+
+%---------------------------CORES-----------------------------|
+\definecolor{cinza}{RGB}{192,192,192}
+\definecolor{preto}{rgb}{0,0,0}
+
+%==============================================================
+%----------------------CONFIGURAÇÕES---------------------------
+%==============================================================
+\renewcommand{\baselinestretch}{1.5}
+
+\newcommand{\mysection}[1]{%
+	\section*{#1}%
+	\addcontentsline{toc}{section}{#1}%
+	\markright{#1}%
+}
+
+%--------------------------SEÇÕES-----------------------------|
+\titleformat{\section}
+{\normalfont\normalsize\bfseries}{}{-1em}{\colorbox{cinza}{\strut\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{black}{\thesection\quad#1}}\hspace{1cm}}}%\colorboc{gray}{\strut TEXTO} - Deixa grande a barra
+\titleformat{name=\section,numberless}
+{\normalfont\normalsize\bfseries}{}{-1em}{\colorbox{cinza}{\strut\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{black}{#1}}\hspace{1cm}}}
+
+\setcounter{section}{1}
+
+%--------------------------SUMÁRIO----------------------------|
+\makeatletter
+\renewcommand\tableofcontents{%
+	\null\hfill\textbf{\Large\contentsname}\hfill\null\par
+	\@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+	\@starttoc{toc}%
+}
+\makeatother
+
+%------------------------REFERÊNCIAS--------------------------|
+\makeatletter
+\renewenvironment{thebibliography}[1]
+{\section*{\bibname}%
+	\@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+	\list{\@biblabel{\@arabic\c@enumiv}}%
+	{\settowidth\labelwidth{\@biblabel{#1}}%
+		\leftmargin\labelwidth
+		\advance\leftmargin\labelsep
+		\@openbib@code
+		\usecounter{enumiv}%
+		\let\p@enumiv\@empty
+		\renewcommand\theenumiv{\@arabic\c@enumiv}}%
+	\sloppy
+	\clubpenalty4000
+	\@clubpenalty \clubpenalty
+	\widowpenalty4000%
+	\sfcode`\.\@m}
+{\def\@noitemerr
+	{\@latex@warning{Empty `thebibliography' environment}}%
+	\endlist}
+\makeatother
+
+%==============================================================
+%---------------------DADOS DO DOCUMENTO-----------------------
+%==============================================================
+%-----------------------DADOS INICIAIS------------------------|
+\newcommand{\bolsista}{[NOME DO BOLSISTA]}
+\newcommand{\orientador}{[NOME DO ORIENTADOR]}
+\newcommand{\titulo}{[TÍTULO DO TRABALHO]}
+	%VIGÊNCIA:
+	\newcommand{\dataA}{[DATA INÍCIO] }
+	\newcommand{\dataB}{[DATA TÉRMINO]}
+	
+%---------------------------FONTES----------------------------|
+%-----ARIAL---------------%
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%-----TIMES NEW ROMAN-----%
+%\usepackage{times}
+
+%-----ADOBE UTOPIA--------%
+%\usepackage{fourier}
+
+%==============================================================
+%-------------------------DOCUMENTO----------------------------
+%==============================================================
+
+\begin{document}
+    %------------------------NOTA-----------------------------|
+    %=======================EXCLUIR============================
+	\label{sec:README}
+	\subfile{Sections/README}
+    \newpage
+    %==========================================================
+    
+    %------------------------CAPA-----------------------------|
+	\begin{center}
+		\textbf{RELATÓRIO PARCIAL - IFSP}
+	\end{center}
+	\bigskip
+	
+	\noindent
+	\textbf{Nome do Bolsista:} \bolsista
+	
+	\noindent
+	\textbf{Nome do Orientador:} \orientador
+	
+	\noindent
+	\textbf{Título do Projeto:} \titulo
+	
+	\noindent
+	\textbf{Vigência da Bolsa:} \dataA à \dataB
+	
+	%---------------------INTRODUÇÃO--------------------------|
+	%\newpage
+	\mysection{INTRODUÇÃO}
+	\label{sec:Intro}
+	\subfile{Sections/Introducao}
+	
+	%----------------------OBJETIVOS--------------------------|
+	%\newpage
+	\mysection{OBJETIVO}
+	\label{sec:Objetivo}
+	\subfile{Sections/Objetivo}
+	
+	%---------------------ATIVIDADES--------------------------|
+	%\newpage
+	\mysection{ATIVIDADES REALIZADAS}
+	\label{sec:Atividades}
+	\subfile{Sections/Atividades}
+	
+	%---------------------RESULTADOS--------------------------|
+	%\newpage
+	\mysection{RESULTADOS OBTIDOS}
+	\label{sec:Resultados}
+	\subfile{Sections/Resultados}
+	
+	%---------------------CRONOGRAMA--------------------------|
+	%\newpage
+	\mysection{CRONOGRAMA FINAL}
+	\label{sec:Cronograma}
+	\subfile{Sections/Cronograma}
+	
+	%--------------------BIBLIOGRAFIA-------------------------|
+	\newpage
+	\bibliographystyle{plainnat}
+	\renewcommand{\bibname}{REFER\^{E}NCIAS}
+	\addcontentsline{toc}{section}{Referências}
+	\bibliography{References}
+	
+	%--------------------ASSINATURAS--------------------------|
+	\noindent
+	\begin{tabular}{@{}p{5cm}p{4in}@{}}
+		Assinatura do orientador: & \hrulefill \\
+	\end{tabular}
+	
+	\noindent
+	\begin{tabular}{@{}p{5cm}p{4in}@{}}
+		Assinatura do bolsista: & \hrulefill \\
+	\end{tabular}
+	
+	
+\end{document}
