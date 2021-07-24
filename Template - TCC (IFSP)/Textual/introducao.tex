@@ -1,0 +1,69 @@
+%==============================================================
+%------------------------INTRODUÇÃO----------------------------
+%--------------main.tex, v1.0.0, JonathanTSilva----------------
+%==============================================================
+
+\chapter{Introdução}\label{cap:introducao}
+
+%==============================================================
+%-------------Templates de inserção de imagens-----------------
+%==============================================================
+
+%Imagem com Fonte com nota no rodapé (Disponível em: ... Acesso em:)
+\begin{comment}
+    \begin{figure}[H]
+        \caption{\label{fig:AQUI VAI O ATALHO DA FIGURA}[AQUI VAI O CAPTION DA FIGURA]}
+        \begin{center}
+            \includegraphics[width=[AQUI VAI A PROPORÇAO DA FIGURA]\textwidth]{[AQUI VAI O DIRETÓRIO DA FIGURA]}
+        \end{center}
+        \legend{Fonte: [AQUI VAI A FONTE DA FIGURA].\protect\footnotemark}
+    \end{figure}
+    
+    \footnotetext{Disponível em: \url{AQUI VAI O URL DA FIGURA}. Acesso em: [AQUI VAI A DATA DE ACESSO - SEMPRE COM O MES ABREVIADO: 26 jun. 2021].}
+\end{comment}
+
+%Imagem sem fonte com rodapé
+\begin{comment}
+    \begin{figure}[H]
+        \caption{\label{fig:AQUI VAI O ATALHO DA FIGURA}[AQUI VAI O CAPTION DA FIGURA]}
+        \begin{center}
+            \includegraphics[width=[AQUI VAI A PROPORÇAO DA FIGURA]\textwidth]{[AQUI VAI O DIRETÓRIO DA FIGURA]}
+        \end{center}
+        \legend{Fonte: [AQUI VAI A FONTE DA FIGURA].}
+    \end{figure}
+\end{comment}
+
+%Imagem com fonte igual de livro
+\begin{comment}
+    \begin{figure}[H]
+        \caption{\label{fig:[AQUI VAI O ATALHO DA FIGURA]}[AQUI VAI O CAPTION DA FIGURA]}
+        \begin{center}
+            \includegraphics[width=[AQUI VAI A PROPORÇAO DA FIGURA]\textwidth]{[AQUI VAI O DIRETÓRIO DA FIGURA]}
+        \end{center}
+        \legend{Fonte: \cite{CITAÇÃO}}
+    \end{figure}
+\end{comment}
+
+%==============================================================
+%-------------Templates de inserção de tabelas-----------------
+%==============================================================
+
+\begin{comment}
+    \begin{table}[H]
+        \ABNTEXfontereduzida
+        \centering
+        \caption{\label{tab:[AQUI VAI O ATALHO DA TABELA]} [AQUI VAI O CAPTION DA TABELA]}
+        \begin{tabular}{c c c}
+            \toprule
+            \thead{Item} & \thead{Nome}       & \thead{Descrição} \\
+            \toprule
+            1     & Controlador               & PLC S71200 CPU1214C \\
+            2     & Relé Inteligente          & Simocode pro V PN \\
+            3     & Transformador de Corrente & Simocode 3UF7 \\
+            4     & Switch                    & SCALANCE TAP104 \\
+            5     & Bomba                     & Hydrobloc P500\\
+            \bottomrule
+        \end{tabular}
+        \legend{Fonte: [AQUI VAI A FONTE DA FIGURA]}
+    \end{table}
+\end{comment}
