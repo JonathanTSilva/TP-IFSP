@@ -30,32 +30,22 @@
   </a>
 </p>
 
-<!-- TABLE OF CONTENTS -->
+<p align="center">
+  
+</p>
 
-  <details close="close">
-    <summary>Table of Contents</summary>
-        <table>
-          <li>
-            <a href="#about-the-project">About The Project</a>
-            <ul>
-              <li><a href="#built-with">Built With</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#getting-started">Getting Started</a>
-            <ul>
-              <li><a href="#prerequisites">Prerequisites</a></li>
-              <li><a href="#installation">Installation</a></li>
-            </ul>
-          </li>
-          <li><a href="#usage">Usage</a></li>
-          <li><a href="#roadmap">Roadmap</a></li>
-          <li><a href="#contributing">Contributing</a></li>
-          <li><a href="#license">License</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#acknowledgements">Acknowledgements</a></li>
-        </table>
-  </details>
+<!-- TABLE OF CONTENTS -->
+<details close="close" align="center">
+  <summary>Table of Contents</summary>
+          <a href="#about-the-project">About The Project</a> |
+          <a href="#getting-started">Getting Started</a> |
+          <a href="#usage">Usage</a> |
+          <a href="#roadmap">Roadmap</a> |
+          <a href="#contributing">Contributing</a> |
+          <a href="#license">License</a> |
+          <a href="#contact">Contact</a> |
+          <a href="#acknowledgements">Acknowledgements</a>
+</details>
 
 ## About the Project
 All templates developed in LaTeX for the Federal Institute of Education, Science and Technology of the State of São Paulo - IFSP - Campus Sertãozinho.
@@ -106,6 +96,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-url]: https://github.com/JonathanTSilva/TP-IFSP/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/JonathanTSilva/
-<!-- [product-screenshot]: -->
 -->
+<!-- [product-screenshot]: -->
 
