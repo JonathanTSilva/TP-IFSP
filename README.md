@@ -30,10 +30,6 @@
   </a>
 </p>
 
-<p align="center">
-  
-</p>
-
 <!-- TABLE OF CONTENTS -->
 <details close="close" align="center">
   <summary>Table of Contents</summary>
@@ -48,9 +44,10 @@
 </details>
 
 ## About the Project
-All templates developed in LaTeX for the Federal Institute of Education, Science and Technology of the State of São Paulo - IFSP - Campus Sertãozinho.
+All reports and document templates developed in LaTeX for the Federal Institute of Education, Science and Technology of the State of São Paulo - IFSP - Campus Sertãozinho.
 
 ### Built with
+\LaTeX
 
 ## Getting Started
 
@@ -65,7 +62,7 @@ All templates developed in LaTeX for the Federal Institute of Education, Science
 Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Jonathan T. da Silva - [@your_twitter](https://www.linkedin.com/in/JonathanTSilva/) - jonathan.t@aluno.ifsp.edu.br
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 ## Acknowledgements
