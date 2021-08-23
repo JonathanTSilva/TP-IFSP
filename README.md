@@ -62,8 +62,8 @@ All reports and document templates developed in LaTeX for the Federal Institute 
 Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
-Jonathan T. da Silva - [@your_twitter](https://www.linkedin.com/in/JonathanTSilva/) - jonathan.t@aluno.ifsp.edu.br
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+[Jonathan T. da Silva](https://www.linkedin.com/in/JonathanTSilva/) - jonathan.t@aluno.ifsp.edu.br <br/>
+Project Link: [JonathanTSilva/TP-IFSP](https://github.com/JonathanTSilva/TP-IFSP)
 
 ## Acknowledgements
 
