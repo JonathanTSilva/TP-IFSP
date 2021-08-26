@@ -57,6 +57,9 @@ All reports and document templates developed in LaTeX for the Federal Institute 
 
 ### Installation
 
+**Build Procedure**
+ * Clone or download this project;
+ * Open in some Latex editor, such as TexStudio (Desktop) or Overleaf (WEB);
 
 ## License
 Distributed under the MIT License. See LICENSE for more information.
