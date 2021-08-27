@@ -46,6 +46,11 @@
 ## About the Project
 All reports and document templates developed in LaTeX for the Federal Institute of Education, Science and Technology of the State of São Paulo - IFSP - Campus Sertãozinho.
 
+There are currently three projects developed:
+* [Partial Report](https://github.com/JonathanTSilva/TP-IFSP/tree/main/Template%20-%20Relat%C3%B3rio%20Parcial%20(IFSP))
+* [Final Report](https://github.com/JonathanTSilva/TP-IFSP/tree/main/Template%20-%20Relat%C3%B3rio%20Final%20(IFSP))
+* [Final Paper](https://github.com/JonathanTSilva/TP-IFSP/tree/main/Template%20-%20TCC%20(IFSP))
+
 ### Built with
 \LaTeX
 
