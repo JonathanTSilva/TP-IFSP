@@ -52,7 +52,9 @@ There are currently three projects developed:
 * [Final Paper](https://github.com/JonathanTSilva/TP-IFSP/tree/main/Template%20-%20TCC%20(IFSP))
 
 ### Built with
-\LaTeX
+<a href="https://www.latex-project.org/">
+  <img width="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/1200px-LaTeX_logo.svg.png" alt="LaTeX">
+</a>
 
 ## Getting Started
 
