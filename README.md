@@ -75,6 +75,20 @@ There are currently three projects developed:
  * Clone or download this project;
  * Open in some Latex editor, such as TexStudio (Desktop) or Overleaf (WEB);
 
+## Quick Guide
+
+A quick guide developed by [Dave Richeson, Dickinson College](http://divisbyzero.com/) has been added to the repository to support LaTeX development.
+
+<p float="left">
+  <a href="https://github.com/JonathanTSilva/TP-IFSP/blob/main/LaTeX%20-%20Quick%20Guide.pdf">
+    <img width="400" src="https://user-images.githubusercontent.com/58694273/136474512-49a16c2e-c326-4e8b-9392-f3d1ab15d626.png" alt="Page1">
+  </a>
+  <img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/800px-HD_transparent_picture.png" alt="Separator">
+  <a href="https://github.com/JonathanTSilva/TP-IFSP/blob/main/LaTeX%20-%20Quick%20Guide.pdf">
+    <img width="400" src="https://user-images.githubusercontent.com/58694273/136474575-4164c30a-1013-468d-b4b7-0996b46a9bf0.png" alt="Page2">
+  </a>
+</p>
+
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/JonathanTSilva/TP-IFSP/blob/main/LICENSE) for more information.
 
