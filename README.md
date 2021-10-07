@@ -52,9 +52,16 @@ There are currently three projects developed:
 * [Final Paper](https://github.com/JonathanTSilva/TP-IFSP/tree/main/Template%20-%20TCC%20(IFSP))
 
 ### Built with
-<a href="https://www.latex-project.org/">
-  <img width="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/1200px-LaTeX_logo.svg.png" alt="LaTeX">
-</a>
+
+<p float="left">
+  <a href="https://www.latex-project.org/">
+    <img height="35" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/1200px-LaTeX_logo.svg.png" alt="LaTeX">
+  </a>
+  <img height="40" src="https://s3.amazonaws.com/static.graphemica.com/glyphs/i300s/000/001/283/original/002B-300x300.png?1275289856" alt="plusSymbol">
+  <a href="https://pt.overleaf.com/">
+    <img height="40" src="https://images.ctfassets.net/nrgyaltdicpt/6gsvc5Ogjmu04I4Miu0uGg/cb1d4391717d2ab8d5e42ede6fb0eef1/overleaf_wide_colour_light_bg.png" alt="Overleaf">
+  </a>
+</p>
 
 ## Getting Started
 
@@ -69,7 +76,7 @@ There are currently three projects developed:
  * Open in some Latex editor, such as TexStudio (Desktop) or Overleaf (WEB);
 
 ## License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/JonathanTSilva/TP-IFSP/blob/main/LICENSE) for more information.
 
 ## Contact
 [Jonathan T. da Silva](https://www.linkedin.com/in/JonathanTSilva/) - jonathan.t@aluno.ifsp.edu.br <br/>
