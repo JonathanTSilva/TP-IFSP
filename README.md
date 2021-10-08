@@ -65,15 +65,22 @@ There are currently three projects developed:
 
 ## Getting Started
 
+TeX is a typesetting language. Instead of visually formatting your text, you enter your manuscript text intertwined with TeX commands in a plain text file. In turn, LaTeX, which is pronounced «Lah-tech» or «Lay-tech», is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing.
 
-### Prerequisites
+### Installing TeX and LaTeX
 
+If you are looking to install a complete system, the most used are TeX Live for Unix/GNU/Linux, MacTeX for MacOSX, and proTeXt or MikTeX for Windows. You can join TUG or another user group and have physical discs sent to you, or you can purchase the distributions without joining. These distributions are (almost entirely) free software, so you can also download the big ISO images and burn your own discs; see the distribution home pages for details.
 
-### Installation
+There are many other TeX implementations, some free software, some shareware, some proprietary/commercial, but in this particular project, we use [MikTex](https://miktex.org/) to implement LaTeX locally on the machine with the [TeXstudio](https://www.texstudio.org/) editor. As an online editor, we highly recommend using [Overleaf](https://www.overleaf.com/) to apply TeX, easy to use, no need to install, real-time collaboration, version control, hundreds of LaTeX templates and more advantages in its use. But nothing prevents you from using the TeX system and editor of your choice, feel free.
 
 **Build Procedure**
  * Clone or download this project;
  * Open in some Latex editor, such as TexStudio (Desktop) or Overleaf (WEB);
+ * Edit your work in the desired template and take advantage of what LaTeX has to offer!
+ 
+ If you are going to make any contribution to the project, you will need to have previous knowledge of Git, as well as your software already installed on your machine. Then follow the steps in the topic below.
+ 
+**Contribute Procedure**
 
 ## Quick Guide
 
