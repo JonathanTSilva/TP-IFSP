@@ -73,14 +73,15 @@ If you are looking to install a complete system, the most used are TeX Live for 
 
 There are many other TeX implementations, some free software, some shareware, some proprietary/commercial, but in this particular project, we use [MikTex](https://miktex.org/) to implement LaTeX locally on the machine with the [TeXstudio](https://www.texstudio.org/) editor. As an online editor, we highly recommend using [Overleaf](https://www.overleaf.com/) to apply TeX, easy to use, no need to install, real-time collaboration, version control, hundreds of LaTeX templates and more advantages in its use. But nothing prevents you from using the TeX system and editor of your choice, feel free.
 
-**Build Procedure**
+#### Build Procedure
+
  * Clone or download this project;
  * Open in some Latex editor, such as TexStudio (Desktop) or Overleaf (WEB);
  * Edit your work in the desired template and take advantage of what LaTeX has to offer!
  
  If you are going to make any contribution to the project, you will need to have previous knowledge of Git, as well as your software already installed on your machine. Then follow the steps in the topic below.
  
-**Contribute Procedure**
+#### Contribute Procedure
 
 ## Quick Guide
 
