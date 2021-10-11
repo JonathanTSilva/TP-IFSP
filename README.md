@@ -35,8 +35,7 @@
   <summary><b>Table of Contents</b></summary>
           <a href="#about-the-project">About The Project</a> |
           <a href="#getting-started">Getting Started</a> |
-          <a href="#usage">Usage</a> |
-          <a href="#roadmap">Roadmap</a> |
+          <a href="#quick-guide">Quick Guide</a> |
           <a href="#contributing">Contributing</a> |
           <a href="#license">License</a> |
           <a href="#contact">Contact</a> |
@@ -79,7 +78,21 @@ There are many other TeX implementations, some free software, some shareware, so
  * Open in some Latex editor, such as TexStudio (Desktop) or Overleaf (WEB);
  * Edit your work in the desired template and take advantage of what LaTeX has to offer!
  
-#### Contribute Procedure
+## Quick Guide
+
+A quick guide developed by [Dave Richeson, Dickinson College](http://divisbyzero.com/) has been added to the repository to support LaTeX development.
+
+<p float="left">
+  <a href="https://github.com/JonathanTSilva/TP-IFSP/blob/main/LaTeX%20-%20Quick%20Guide.pdf">
+    <img width="350" src="https://user-images.githubusercontent.com/58694273/136474512-49a16c2e-c326-4e8b-9392-f3d1ab15d626.png" alt="Page1">
+  </a>
+  <img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/800px-HD_transparent_picture.png" alt="Separator">
+  <a href="https://github.com/JonathanTSilva/TP-IFSP/blob/main/LaTeX%20-%20Quick%20Guide.pdf">
+    <img width="350" src="https://user-images.githubusercontent.com/58694273/136474575-4164c30a-1013-468d-b4b7-0996b46a9bf0.png" alt="Page2">
+  </a>
+</p>
+
+## Contributing
 
 If you want to contribute to this project and make it better, your help is very welcome.
 
@@ -105,20 +118,6 @@ Look for a project's contribution instructions. If there are any, follow them.
 your extra branch(es).
 
 And last but not least: Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code.
-
-## Quick Guide
-
-A quick guide developed by [Dave Richeson, Dickinson College](http://divisbyzero.com/) has been added to the repository to support LaTeX development.
-
-<p float="left">
-  <a href="https://github.com/JonathanTSilva/TP-IFSP/blob/main/LaTeX%20-%20Quick%20Guide.pdf">
-    <img width="350" src="https://user-images.githubusercontent.com/58694273/136474512-49a16c2e-c326-4e8b-9392-f3d1ab15d626.png" alt="Page1">
-  </a>
-  <img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/800px-HD_transparent_picture.png" alt="Separator">
-  <a href="https://github.com/JonathanTSilva/TP-IFSP/blob/main/LaTeX%20-%20Quick%20Guide.pdf">
-    <img width="350" src="https://user-images.githubusercontent.com/58694273/136474575-4164c30a-1013-468d-b4b7-0996b46a9bf0.png" alt="Page2">
-  </a>
-</p>
 
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/JonathanTSilva/TP-IFSP/blob/main/LICENSE) for more information.
