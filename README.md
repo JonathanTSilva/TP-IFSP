@@ -119,6 +119,9 @@ your extra branch(es).
 
 And last but not least: Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code.
 
+<!-- MIT License -->
+<a href="https://github.com/JonathanTSilva/TP-IFSP/blob/main/LICENSE"><img width="100px" src="https://miro.medium.com/max/886/1*C87EjxGeMPrkTuVRVWVg4w.png" align="right" /></a>
+
 ## License
 Distributed under the MIT License. See [LICENSE](https://github.com/JonathanTSilva/TP-IFSP/blob/main/LICENSE) for more information.
 
