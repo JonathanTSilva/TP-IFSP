@@ -117,7 +117,7 @@ Look for a project's contribution instructions. If there are any, follow them.
 - Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
 your extra branch(es).
 
-And last but not least: Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code.
+> Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code.
 
 <!-- MIT License -->
 <a href="https://github.com/JonathanTSilva/TP-IFSP/blob/main/LICENSE"><img width="100px" src="https://miro.medium.com/max/886/1*C87EjxGeMPrkTuVRVWVg4w.png" align="right" /></a>
