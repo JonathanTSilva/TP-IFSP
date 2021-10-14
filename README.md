@@ -38,8 +38,7 @@
           <a href="#quick-guide">Quick Guide</a> |
           <a href="#contributing">Contributing</a> |
           <a href="#license">License</a> |
-          <a href="#contact">Contact</a> |
-          <a href="#acknowledgements">Acknowledgements</a>
+          <a href="#contact">Contact</a>
 </details>
 
 ## About the Project
@@ -128,9 +127,6 @@ Distributed under the MIT License. See [LICENSE](https://github.com/JonathanTSil
 ## Contact
 [Jonathan T. da Silva](https://www.linkedin.com/in/JonathanTSilva/) - jonathan.t@aluno.ifsp.edu.br <br/>
 Project Link: [JonathanTSilva/TP-IFSP](https://github.com/JonathanTSilva/TP-IFSP)
-
-## Acknowledgements
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- Caso utilize as imagens em markdown, sempre seguir este padrão!-->
