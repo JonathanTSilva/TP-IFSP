@@ -8,7 +8,7 @@
 </h1>
 
 <h4 align="center">
-  📚 All IFSP's reports and documents templates in LaTeX!.
+  📚 All IFSP's reports and documents templates in LaTeX!
 </h4>
 
 <!-- PROJECT SHIELDS -->
