@@ -109,7 +109,7 @@ Look for a project's contribution instructions. If there are any, follow them.
 - If the project has tests run them!
 - Write or adapt tests as needed.
 - Add or change the documentation as needed.
-- Squash your commits into a single commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
+- Squash your commits into a single commit with git's [interactive rebase](https://www.atlassian.com/br/git/tutorials/rewriting-history/git-rebase). Create a new branch if necessary.
 - Push your branch to your fork on Github, the remote `origin`.
 - From your fork open a pull request in the correct branch. Target the project's `develop` branch if there is one, else go for `main`!
 - Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
