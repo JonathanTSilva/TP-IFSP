@@ -52,12 +52,12 @@ There are currently three projects developed:
 ### Built with
 
 <p float="left">
-  <a href="https://www.eclipse.org/">
-    <img height="40" src="Images/eclipse-logo.png" alt="Eclipse">
+  <a href="https://www.latex-project.org/">
+    <img height="35" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/1200px-LaTeX_logo.svg.png" alt="LaTeX">
   </a>
   <img height="40" src="https://s3.amazonaws.com/static.graphemica.com/glyphs/i300s/000/001/283/original/002B-300x300.png?1275289856" alt="plusSymbol">
   <a href="https://pt.overleaf.com/">
-    <img height="40" src="Images/java-logo.png" alt="Java">
+    <img height="40" src="https://images.ctfassets.net/nrgyaltdicpt/6gsvc5Ogjmu04I4Miu0uGg/cb1d4391717d2ab8d5e42ede6fb0eef1/overleaf_wide_colour_light_bg.png" alt="Overleaf">
   </a>
 </p>
 
